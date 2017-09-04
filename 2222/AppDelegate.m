@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "TBCityIconInfo.h"
+#import "TBCityIconFont.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +18,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //使用导出的字体文件
+    [TBCityIconFont setFontName:@"icomoon"];
     return YES;
 }
 

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF60B3421F5CF96500777240 /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF60B3411F5CF96500777240 /* icomoon.ttf */; };
+		EF60B34A1F5CF99800777240 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EF60B3451F5CF99800777240 /* TBCityIconFont.m */; };
+		EF60B34B1F5CF99800777240 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EF60B3471F5CF99800777240 /* TBCityIconInfo.m */; };
+		EF60B34C1F5CF99800777240 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = EF60B3491F5CF99800777240 /* UIImage+TBCityIconFont.m */; };
 		EFAB373A1E779365002A29CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB37391E779365002A29CA /* main.m */; };
 		EFAB373D1E779365002A29CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB373C1E779365002A29CA /* AppDelegate.m */; };
 		EFAB37401E779366002A29CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFAB373F1E779365002A29CA /* ViewController.m */; };
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EF60B3411F5CF96500777240 /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		EF60B3441F5CF99800777240 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		EF60B3451F5CF99800777240 /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		EF60B3461F5CF99800777240 /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		EF60B3471F5CF99800777240 /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		EF60B3481F5CF99800777240 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		EF60B3491F5CF99800777240 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
 		EFAB37351E779365002A29CA /* 2222.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2222.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFAB37391E779365002A29CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EFAB373B1E779365002A29CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,9 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF60B3431F5CF99800777240 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				EF60B3441F5CF99800777240 /* TBCityIconFont.h */,
+				EF60B3451F5CF99800777240 /* TBCityIconFont.m */,
+				EF60B3461F5CF99800777240 /* TBCityIconInfo.h */,
+				EF60B3471F5CF99800777240 /* TBCityIconInfo.m */,
+				EF60B3481F5CF99800777240 /* UIImage+TBCityIconFont.h */,
+				EF60B3491F5CF99800777240 /* UIImage+TBCityIconFont.m */,
+			);
+			path = IconFont;
+			sourceTree = "<group>";
+		};
 		EFAB372C1E779365002A29CA = {
 			isa = PBXGroup;
 			children = (
+				EF60B3411F5CF96500777240 /* icomoon.ttf */,
 				EFAB37371E779365002A29CA /* 2222 */,
 				EFAB37511E779366002A29CA /* 2222Tests */,
 				EFAB375C1E779366002A29CA /* 2222UITests */,
@@ -101,6 +126,7 @@
 		EFAB37371E779365002A29CA /* 2222 */ = {
 			isa = PBXGroup;
 			children = (
+				EF60B3431F5CF99800777240 /* IconFont */,
 				EFAB373B1E779365002A29CA /* AppDelegate.h */,
 				EFAB373C1E779365002A29CA /* AppDelegate.m */,
 				EFAB373E1E779365002A29CA /* ViewController.h */,
@@ -207,6 +233,7 @@
 				TargetAttributes = {
 					EFAB37341E779365002A29CA = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = J84PP8DUVK;
 						ProvisioningStyle = Automatic;
 					};
 					EFAB374D1E779366002A29CA = {
@@ -249,6 +276,7 @@
 				EFAB37481E779366002A29CA /* LaunchScreen.storyboard in Resources */,
 				EFAB37451E779366002A29CA /* Assets.xcassets in Resources */,
 				EFAB37431E779366002A29CA /* Main.storyboard in Resources */,
+				EF60B3421F5CF96500777240 /* icomoon.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF60B34B1F5CF99800777240 /* TBCityIconInfo.m in Sources */,
 				EFAB37401E779366002A29CA /* ViewController.m in Sources */,
 				EFAB373D1E779365002A29CA /* AppDelegate.m in Sources */,
+				EF60B34A1F5CF99800777240 /* TBCityIconFont.m in Sources */,
+				EF60B34C1F5CF99800777240 /* UIImage+TBCityIconFont.m in Sources */,
 				EFAB373A1E779365002A29CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +455,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
 				INFOPLIST_FILE = 2222/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yuren.-222";
@@ -435,6 +467,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J84PP8DUVK;
 				INFOPLIST_FILE = 2222/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yuren.-222";
@@ -507,6 +540,7 @@
 				EFAB37641E779366002A29CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFAB37651E779366002A29CA /* Build configuration list for PBXNativeTarget "2222Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +549,7 @@
 				EFAB37671E779366002A29CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EFAB37681E779366002A29CA /* Build configuration list for PBXNativeTarget "2222UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +558,7 @@
 				EFAB376A1E779366002A29CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
